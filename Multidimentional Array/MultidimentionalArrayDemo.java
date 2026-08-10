@@ -17,5 +17,18 @@ public class MultidimentionalArrayDemo {
       }
       System.out.println();
     }
+
+    System.out.println("----------------");
+
+    System.out.println("Output from Enhanced for loop");
+
+    //array n is single dimentional array from multidimentional array nums
+    for (int[] n : nums) {
+      for (int m  : n) {
+    // m is the single element from array n   
+        System.out.print(m + " ");
+      }
+      System.out.println();
+    }
   } 
 }

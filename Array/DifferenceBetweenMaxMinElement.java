@@ -14,13 +14,14 @@ public class DifferenceBetweenMaxMinElement {
 
     for (int i = 0; i < length; i++) {
       nums[i] = scanner.nextInt();
-      
+
       if (nums[i] > max) {
         max = nums[i];
-      } else if (nums[i] < min) {
+      }if (nums[i] < min) {
         min = nums[i];
       }
-    }
+    } 
+    
 
     int diffrence = max - min;
 
